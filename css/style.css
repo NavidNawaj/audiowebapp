@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+    background-color: #000000  !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* Serach bar Style */
+.search-body{
+    display: flex;
+    margin-top: 50px;
+}
+#serach_input{
+    width: 100%;
+    border: 1px solid #52057b;
+    background: #7a75750f;
+    padding: 2px 15px;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    color: #bc6ff1;
+    font-size: 12px;
+    font-weight: 600;
+}
+#serach_input:focus{
+    outline: none;
+}
+#searchbtn{
+    width: 40px;
+    height: 36px;
+    border: 1px solid #52057b;
+    background: #52057b;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+#searchbtn:focus{
+    outline: none;
+}
+
+/*Body Song Styling */
+
+.Bottom-body{
+ margin-top: 70px;
+}
+#song-body img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#song-body h5 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #7d7d7d;
+}
+#song-body p{
+    color:#bc6ff170;
+}
+audio:focus{
+    outline: none;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 210px;
+    height: 35px;
+}
+.res-column{}
+#col-md-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-bottom: 40px;
+}
